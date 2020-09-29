@@ -3,11 +3,6 @@ import { countsAsYes , calculatePercent } from './utilsOctopus.js';
 const button = document.getElementById("begin-button");
 
 const results = document.getElementById("hiddens");
-const zeroResults = document.getElementById("hiddenZero");
-const oneResults = document.getElementById("hiddenOne");
-const twoResults = document.getElementById("hiddenTwo");
-const threeResults = document.getElementById("hiddenThree");
-
 
 button.addEventListener('click', () => {
     
